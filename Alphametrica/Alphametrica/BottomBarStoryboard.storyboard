@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yfi-kK-cgB">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="4qv-YU-N6V">
+            <objects>
+                <viewController storyboardIdentifier="bottomBarView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Yfi-kK-cgB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dD6-8v-HzH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ow1-FB-Ssq" customClass="BottomBarView" customModule="Alphametrica" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="joM-rM-Pv0">
+                                        <rect key="frame" x="64" y="0.0" width="287" height="53"/>
+                                        <color key="backgroundColor" red="0.21960783" green="0.1607843041" blue="0.41176474089999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="Riw-Zc-VRg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                        <state key="normal" title="가입하기">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="로그인" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWU-52-jdZ">
+                                        <rect key="frame" x="184.5" y="71" width="45" height="19"/>
+                                        <fontDescription key="fontDescription" name=".AppleSDGothicNeoI-Regular" family=".AppleKoreanFont" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="nWU-52-jdZ" firstAttribute="centerX" secondItem="Ow1-FB-Ssq" secondAttribute="centerX" id="NpW-J5-kMx"/>
+                                    <constraint firstAttribute="trailing" secondItem="joM-rM-Pv0" secondAttribute="trailing" constant="63" id="OPw-Vu-ZBx"/>
+                                    <constraint firstItem="joM-rM-Pv0" firstAttribute="top" secondItem="Ow1-FB-Ssq" secondAttribute="top" id="QiB-vq-MjD"/>
+                                    <constraint firstItem="joM-rM-Pv0" firstAttribute="leading" secondItem="Ow1-FB-Ssq" secondAttribute="leading" constant="64" id="fMK-iU-0NE"/>
+                                    <constraint firstAttribute="bottom" secondItem="nWU-52-jdZ" secondAttribute="bottom" id="kpM-Wu-nt6"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="mainButton" destination="joM-rM-Pv0" id="JCl-rA-xFE"/>
+                                    <outlet property="textLabel" destination="nWU-52-jdZ" id="hSy-jt-4X3"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3rm-ee-cEo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Ow1-FB-Ssq" secondAttribute="trailing" id="Fo1-2u-5wt"/>
+                            <constraint firstItem="Ow1-FB-Ssq" firstAttribute="leading" secondItem="dD6-8v-HzH" secondAttribute="leading" id="P0R-Kj-Bni"/>
+                            <constraint firstItem="Ow1-FB-Ssq" firstAttribute="top" secondItem="dD6-8v-HzH" secondAttribute="top" id="TEO-Xh-HUh"/>
+                            <constraint firstAttribute="bottom" secondItem="Ow1-FB-Ssq" secondAttribute="bottom" id="fuI-e0-4sO"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="90"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fja-II-N9u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189.85507246376812" y="152.67857142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

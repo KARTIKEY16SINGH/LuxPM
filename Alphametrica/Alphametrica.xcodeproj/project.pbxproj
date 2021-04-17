@@ -20,7 +20,6 @@
 		C63F10E7262AC18C005AE87F /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10DC262AC18C005AE87F /* Lato-Bold.ttf */; };
 		C63F10E8262AC18C005AE87F /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10DD262AC18C005AE87F /* Lato-Light.ttf */; };
 		C63F10E9262AC18C005AE87F /* Lato-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10DE262AC18C005AE87F /* Lato-BoldItalic.ttf */; };
-		C63F10EA262AC18C005AE87F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63F10DF262AC18C005AE87F /* OFL.txt */; };
 		C63F10EB262AC18C005AE87F /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10E0262AC18C005AE87F /* Lato-Regular.ttf */; };
 		C63F10EC262AC18C005AE87F /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10E1262AC18C005AE87F /* Lato-BlackItalic.ttf */; };
 		C63F10ED262AC18C005AE87F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10E2262AC18C005AE87F /* Lato-Italic.ttf */; };
@@ -30,10 +29,12 @@
 		C63F10FC262AC696005AE87F /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F3262AC696005AE87F /* Merriweather-Regular.ttf */; };
 		C63F10FD262AC696005AE87F /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F4262AC696005AE87F /* Merriweather-LightItalic.ttf */; };
 		C63F10FE262AC696005AE87F /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F5262AC696005AE87F /* Merriweather-Bold.ttf */; };
-		C63F10FF262AC696005AE87F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F6262AC696005AE87F /* OFL.txt */; };
 		C63F1100262AC696005AE87F /* Merriweather-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F7262AC696005AE87F /* Merriweather-BlackItalic.ttf */; };
 		C63F1101262AC696005AE87F /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F8262AC696005AE87F /* Merriweather-BoldItalic.ttf */; };
 		C63F1102262AC696005AE87F /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F9262AC696005AE87F /* Merriweather-Light.ttf */; };
+		C63F1106262ACF76005AE87F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F1105262ACF76005AE87F /* Roboto-Regular.ttf */; };
+		C63F110F262AD0AF005AE87F /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F110E262AD0AF005AE87F /* BottomBarView.swift */; };
+		C63F1116262AD146005AE87F /* BottomBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +53,6 @@
 		C63F10DC262AC18C005AE87F /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
 		C63F10DD262AC18C005AE87F /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
 		C63F10DE262AC18C005AE87F /* Lato-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BoldItalic.ttf"; sourceTree = "<group>"; };
-		C63F10DF262AC18C005AE87F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		C63F10E0262AC18C005AE87F /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
 		C63F10E1262AC18C005AE87F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
 		C63F10E2262AC18C005AE87F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
@@ -62,10 +62,12 @@
 		C63F10F3262AC696005AE87F /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
 		C63F10F4262AC696005AE87F /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
 		C63F10F5262AC696005AE87F /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
-		C63F10F6262AC696005AE87F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
 		C63F10F7262AC696005AE87F /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
 		C63F10F8262AC696005AE87F /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
 		C63F10F9262AC696005AE87F /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
+		C63F1105262ACF76005AE87F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		C63F110E262AD0AF005AE87F /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomBarStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,8 @@
 				C622624F262AB662000030D7 /* LaunchScreen.storyboard */,
 				C6226252262AB662000030D7 /* Info.plist */,
 				C622625A262AB705000030D7 /* UsedModel.swift */,
+				C63F110E262AD0AF005AE87F /* BottomBarView.swift */,
+				C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */,
 			);
 			path = Alphametrica;
 			sourceTree = "<group>";
@@ -114,6 +118,7 @@
 		C63F10D3262AC038005AE87F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C63F1104262ACF3E005AE87F /* Roboto */,
 				C63F10F0262AC67A005AE87F /* Merriweather */,
 				C63F10D8262AC167005AE87F /* Lato */,
 			);
@@ -133,7 +138,6 @@
 				C63F10E0262AC18C005AE87F /* Lato-Regular.ttf */,
 				C63F10DA262AC18C005AE87F /* Lato-Thin.ttf */,
 				C63F10D9262AC18C005AE87F /* Lato-ThinItalic.ttf */,
-				C63F10DF262AC18C005AE87F /* OFL.txt */,
 			);
 			path = Lato;
 			sourceTree = "<group>";
@@ -149,9 +153,16 @@
 				C63F10F9262AC696005AE87F /* Merriweather-Light.ttf */,
 				C63F10F4262AC696005AE87F /* Merriweather-LightItalic.ttf */,
 				C63F10F3262AC696005AE87F /* Merriweather-Regular.ttf */,
-				C63F10F6262AC696005AE87F /* OFL.txt */,
 			);
 			path = Merriweather;
+			sourceTree = "<group>";
+		};
+		C63F1104262ACF3E005AE87F /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				C63F1105262ACF76005AE87F /* Roboto-Regular.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +222,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C63F1116262AD146005AE87F /* BottomBarStoryboard.storyboard in Resources */,
 				C63F10EE262AC18C005AE87F /* Lato-Black.ttf in Resources */,
-				C63F10EA262AC18C005AE87F /* OFL.txt in Resources */,
 				C63F10E7262AC18C005AE87F /* Lato-Bold.ttf in Resources */,
 				C63F10ED262AC18C005AE87F /* Lato-Italic.ttf in Resources */,
 				C6226251262AB662000030D7 /* LaunchScreen.storyboard in Resources */,
@@ -221,7 +232,6 @@
 				C63F10E9262AC18C005AE87F /* Lato-BoldItalic.ttf in Resources */,
 				C63F10E4262AC18C005AE87F /* Lato-ThinItalic.ttf in Resources */,
 				C63F10FE262AC696005AE87F /* Merriweather-Bold.ttf in Resources */,
-				C63F10FF262AC696005AE87F /* OFL.txt in Resources */,
 				C63F1102262AC696005AE87F /* Merriweather-Light.ttf in Resources */,
 				C63F10FC262AC696005AE87F /* Merriweather-Regular.ttf in Resources */,
 				C63F10E5262AC18C005AE87F /* Lato-Thin.ttf in Resources */,
@@ -229,6 +239,7 @@
 				C63F10EC262AC18C005AE87F /* Lato-BlackItalic.ttf in Resources */,
 				C63F10FA262AC696005AE87F /* Merriweather-Black.ttf in Resources */,
 				C63F1100262AC696005AE87F /* Merriweather-BlackItalic.ttf in Resources */,
+				C63F1106262ACF76005AE87F /* Roboto-Regular.ttf in Resources */,
 				C63F10FD262AC696005AE87F /* Merriweather-LightItalic.ttf in Resources */,
 				C63F1101262AC696005AE87F /* Merriweather-BoldItalic.ttf in Resources */,
 				C622624C262AB661000030D7 /* Main.storyboard in Resources */,
@@ -247,6 +258,7 @@
 				C622625B262AB705000030D7 /* UsedModel.swift in Sources */,
 				C6226249262AB661000030D7 /* ViewController.swift in Sources */,
 				C6226245262AB661000030D7 /* AppDelegate.swift in Sources */,
+				C63F110F262AD0AF005AE87F /* BottomBarView.swift in Sources */,
 				C6226247262AB661000030D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
