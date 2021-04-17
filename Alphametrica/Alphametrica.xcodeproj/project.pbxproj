@@ -25,6 +25,15 @@
 		C63F10EC262AC18C005AE87F /* Lato-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10E1262AC18C005AE87F /* Lato-BlackItalic.ttf */; };
 		C63F10ED262AC18C005AE87F /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10E2262AC18C005AE87F /* Lato-Italic.ttf */; };
 		C63F10EE262AC18C005AE87F /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10E3262AC18C005AE87F /* Lato-Black.ttf */; };
+		C63F10FA262AC696005AE87F /* Merriweather-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F1262AC695005AE87F /* Merriweather-Black.ttf */; };
+		C63F10FB262AC696005AE87F /* Merriweather-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F2262AC695005AE87F /* Merriweather-Italic.ttf */; };
+		C63F10FC262AC696005AE87F /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F3262AC696005AE87F /* Merriweather-Regular.ttf */; };
+		C63F10FD262AC696005AE87F /* Merriweather-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F4262AC696005AE87F /* Merriweather-LightItalic.ttf */; };
+		C63F10FE262AC696005AE87F /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F5262AC696005AE87F /* Merriweather-Bold.ttf */; };
+		C63F10FF262AC696005AE87F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F6262AC696005AE87F /* OFL.txt */; };
+		C63F1100262AC696005AE87F /* Merriweather-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F7262AC696005AE87F /* Merriweather-BlackItalic.ttf */; };
+		C63F1101262AC696005AE87F /* Merriweather-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F8262AC696005AE87F /* Merriweather-BoldItalic.ttf */; };
+		C63F1102262AC696005AE87F /* Merriweather-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10F9262AC696005AE87F /* Merriweather-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +57,15 @@
 		C63F10E1262AC18C005AE87F /* Lato-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-BlackItalic.ttf"; sourceTree = "<group>"; };
 		C63F10E2262AC18C005AE87F /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
 		C63F10E3262AC18C005AE87F /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		C63F10F1262AC695005AE87F /* Merriweather-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Black.ttf"; sourceTree = "<group>"; };
+		C63F10F2262AC695005AE87F /* Merriweather-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Italic.ttf"; sourceTree = "<group>"; };
+		C63F10F3262AC696005AE87F /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		C63F10F4262AC696005AE87F /* Merriweather-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-LightItalic.ttf"; sourceTree = "<group>"; };
+		C63F10F5262AC696005AE87F /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		C63F10F6262AC696005AE87F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C63F10F7262AC696005AE87F /* Merriweather-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BlackItalic.ttf"; sourceTree = "<group>"; };
+		C63F10F8262AC696005AE87F /* Merriweather-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C63F10F9262AC696005AE87F /* Merriweather-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +114,7 @@
 		C63F10D3262AC038005AE87F /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				C63F10F0262AC67A005AE87F /* Merriweather */,
 				C63F10D8262AC167005AE87F /* Lato */,
 			);
 			path = Fonts;
@@ -117,6 +136,22 @@
 				C63F10DF262AC18C005AE87F /* OFL.txt */,
 			);
 			path = Lato;
+			sourceTree = "<group>";
+		};
+		C63F10F0262AC67A005AE87F /* Merriweather */ = {
+			isa = PBXGroup;
+			children = (
+				C63F10F1262AC695005AE87F /* Merriweather-Black.ttf */,
+				C63F10F7262AC696005AE87F /* Merriweather-BlackItalic.ttf */,
+				C63F10F5262AC696005AE87F /* Merriweather-Bold.ttf */,
+				C63F10F8262AC696005AE87F /* Merriweather-BoldItalic.ttf */,
+				C63F10F2262AC695005AE87F /* Merriweather-Italic.ttf */,
+				C63F10F9262AC696005AE87F /* Merriweather-Light.ttf */,
+				C63F10F4262AC696005AE87F /* Merriweather-LightItalic.ttf */,
+				C63F10F3262AC696005AE87F /* Merriweather-Regular.ttf */,
+				C63F10F6262AC696005AE87F /* OFL.txt */,
+			);
+			path = Merriweather;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,12 +216,21 @@
 				C63F10E7262AC18C005AE87F /* Lato-Bold.ttf in Resources */,
 				C63F10ED262AC18C005AE87F /* Lato-Italic.ttf in Resources */,
 				C6226251262AB662000030D7 /* LaunchScreen.storyboard in Resources */,
+				C63F10FB262AC696005AE87F /* Merriweather-Italic.ttf in Resources */,
 				C63F10E6262AC18C005AE87F /* Lato-LightItalic.ttf in Resources */,
 				C63F10E9262AC18C005AE87F /* Lato-BoldItalic.ttf in Resources */,
 				C63F10E4262AC18C005AE87F /* Lato-ThinItalic.ttf in Resources */,
+				C63F10FE262AC696005AE87F /* Merriweather-Bold.ttf in Resources */,
+				C63F10FF262AC696005AE87F /* OFL.txt in Resources */,
+				C63F1102262AC696005AE87F /* Merriweather-Light.ttf in Resources */,
+				C63F10FC262AC696005AE87F /* Merriweather-Regular.ttf in Resources */,
 				C63F10E5262AC18C005AE87F /* Lato-Thin.ttf in Resources */,
 				C622624E262AB662000030D7 /* Assets.xcassets in Resources */,
 				C63F10EC262AC18C005AE87F /* Lato-BlackItalic.ttf in Resources */,
+				C63F10FA262AC696005AE87F /* Merriweather-Black.ttf in Resources */,
+				C63F1100262AC696005AE87F /* Merriweather-BlackItalic.ttf in Resources */,
+				C63F10FD262AC696005AE87F /* Merriweather-LightItalic.ttf in Resources */,
+				C63F1101262AC696005AE87F /* Merriweather-BoldItalic.ttf in Resources */,
 				C622624C262AB661000030D7 /* Main.storyboard in Resources */,
 				C63F10E8262AC18C005AE87F /* Lato-Light.ttf in Resources */,
 				C63F10EB262AC18C005AE87F /* Lato-Regular.ttf in Resources */,
