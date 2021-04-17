@@ -36,7 +36,9 @@ class ViewController: UIViewController {
 
 extension ViewController: BottomBarViewActionDelegate {
     func mainButtonTapped() {
-        
+        let vc = UIStoryboard(name: "SignupStoryboard", bundle: nibBundle).instantiateViewController(identifier: "signupStoryboard")
+        print("Navigation Controller = \(navigationController)")
+        navigationController?.pushViewController(vc, animated: true)
     }
     
     func textLabelTapped() {

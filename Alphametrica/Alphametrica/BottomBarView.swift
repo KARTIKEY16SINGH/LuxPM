@@ -27,6 +27,7 @@ class BottomBarView: UIView {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        mainButton.layer.cornerRadius = 10
     }
     
     @IBAction func onMainButtonClick(_ sender: UIButton) {

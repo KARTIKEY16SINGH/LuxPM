@@ -37,12 +37,13 @@
                                         </state>
                                         <connections>
                                             <action selector="onMainButtonClick:" destination="4q8-TT-odU" eventType="touchUpInside" id="IEL-bC-Mat"/>
+                                            <action selector="onMainButtonClick:" destination="Ow1-FB-Ssq" eventType="touchUpInside" id="X83-vx-4b0"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="로그인" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nWU-52-jdZ">
                                         <rect key="frame" x="186" y="71" width="42" height="19"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
-                                        <color key="textColor" red="0.89791398200000005" green="0.25620727859999998" blue="0.19937060979999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.23137254901960785" green="0.15686274509803921" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>

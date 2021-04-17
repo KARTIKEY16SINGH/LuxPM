@@ -37,6 +37,10 @@
 		C63F1116262AD146005AE87F /* BottomBarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */; };
 		C63F1119262AFB84005AE87F /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1118262AFB84005AE87F /* Helper.swift */; };
 		C63F111D262B1AAD005AE87F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F111C262B1AAD005AE87F /* Roboto-Bold.ttf */; };
+		C63F1120262B203D005AE87F /* SignupStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F111F262B203D005AE87F /* SignupStoryboard.storyboard */; };
+		C63F1124262B42AA005AE87F /* SignupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1122262B42AA005AE87F /* SignupTableViewCell.swift */; };
+		C63F1125262B42AA005AE87F /* SignupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63F1123262B42AA005AE87F /* SignupTableViewCell.xib */; };
+		C63F1128262B42F8005AE87F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1127262B42F8005AE87F /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BottomBarStoryboard.storyboard; sourceTree = "<group>"; };
 		C63F1118262AFB84005AE87F /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		C63F111C262B1AAD005AE87F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		C63F111F262B203D005AE87F /* SignupStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignupStoryboard.storyboard; sourceTree = "<group>"; };
+		C63F1122262B42AA005AE87F /* SignupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTableViewCell.swift; sourceTree = "<group>"; };
+		C63F1123262B42AA005AE87F /* SignupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupTableViewCell.xib; sourceTree = "<group>"; };
+		C63F1127262B42F8005AE87F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +124,10 @@
 				C63F110E262AD0AF005AE87F /* BottomBarView.swift */,
 				C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */,
 				C63F1118262AFB84005AE87F /* Helper.swift */,
+				C63F111F262B203D005AE87F /* SignupStoryboard.storyboard */,
+				C63F1122262B42AA005AE87F /* SignupTableViewCell.swift */,
+				C63F1123262B42AA005AE87F /* SignupTableViewCell.xib */,
+				C63F1127262B42F8005AE87F /* SignupViewController.swift */,
 			);
 			path = Alphametrica;
 			sourceTree = "<group>";
@@ -241,11 +253,13 @@
 				C63F1102262AC696005AE87F /* Merriweather-Light.ttf in Resources */,
 				C63F10FC262AC696005AE87F /* Merriweather-Regular.ttf in Resources */,
 				C63F10E5262AC18C005AE87F /* Lato-Thin.ttf in Resources */,
+				C63F1120262B203D005AE87F /* SignupStoryboard.storyboard in Resources */,
 				C622624E262AB662000030D7 /* Assets.xcassets in Resources */,
 				C63F111D262B1AAD005AE87F /* Roboto-Bold.ttf in Resources */,
 				C63F10EC262AC18C005AE87F /* Lato-BlackItalic.ttf in Resources */,
 				C63F10FA262AC696005AE87F /* Merriweather-Black.ttf in Resources */,
 				C63F1100262AC696005AE87F /* Merriweather-BlackItalic.ttf in Resources */,
+				C63F1125262B42AA005AE87F /* SignupTableViewCell.xib in Resources */,
 				C63F1106262ACF76005AE87F /* Roboto-Regular.ttf in Resources */,
 				C63F10FD262AC696005AE87F /* Merriweather-LightItalic.ttf in Resources */,
 				C63F1101262AC696005AE87F /* Merriweather-BoldItalic.ttf in Resources */,
@@ -264,8 +278,10 @@
 			files = (
 				C622625B262AB705000030D7 /* UsedModel.swift in Sources */,
 				C6226249262AB661000030D7 /* ViewController.swift in Sources */,
+				C63F1128262B42F8005AE87F /* SignupViewController.swift in Sources */,
 				C6226245262AB661000030D7 /* AppDelegate.swift in Sources */,
 				C63F110F262AD0AF005AE87F /* BottomBarView.swift in Sources */,
+				C63F1124262B42AA005AE87F /* SignupTableViewCell.swift in Sources */,
 				C6226247262AB661000030D7 /* SceneDelegate.swift in Sources */,
 				C63F1119262AFB84005AE87F /* Helper.swift in Sources */,
 			);
