@@ -23,6 +23,7 @@
 		<string>Merriweather-LightItalic.ttf</string>
 		<string>Merriweather-Regular.ttf</string>
 		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Bold.ttf</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
