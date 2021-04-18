@@ -47,7 +47,7 @@ class LoginViewController: BottomBarBaseViewController {
     }
     
     private func showLoginFailAlert() {
-        GUIManager.showAlert(message: "Either EmmailID or Password is not correct", presenter: self)
+        GUIManager.showAlert(message: "One or more credentials are not correct.", presenter: self)
     }
     
     override func textLabelTapped() {
