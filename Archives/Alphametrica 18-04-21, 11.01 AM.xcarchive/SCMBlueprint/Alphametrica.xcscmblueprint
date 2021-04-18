@@ -1,0 +1,26 @@
+{
+  "DVTSourceControlWorkspaceBlueprintLocationsKey" : {
+    "84E1808312AC85F56C298DE63228105D8561CE62" : {
+      "DVTSourceControlBranchIdentifierKey" : "main",
+      "DVTSourceControlLocationRevisionKey" : "a8194d7cbfa7505b69929eefc0bf33a956555463",
+      "DVTSourceControlBranchOptionsKey" : 4,
+      "DVTSourceControlBranchRemoteNameKey" : "origin",
+      "DVTSourceControlWorkspaceBlueprintLocationTypeKey" : "DVTSourceControlBranch"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "84E1808312AC85F56C298DE63228105D8561CE62",
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "01A93C7B-BD99-4B56-8C42-D12D8570FC6C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "84E1808312AC85F56C298DE63228105D8561CE62" : "LuxPM\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Alphametrica",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Alphametrica\/Alphametrica.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KARTIKEY16SINGH\/LuxPM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "84E1808312AC85F56C298DE63228105D8561CE62"
+    }
+  ]
+}
