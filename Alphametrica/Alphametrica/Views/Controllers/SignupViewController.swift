@@ -37,8 +37,6 @@ class SignupViewController: BottomBarBaseViewController {
         tableView.register(UINib(nibName: "SignupTableViewCell", bundle: Bundle(for: SignupViewController.self)), forCellReuseIdentifier: "signupTableViewCell")
         tableView.tableFooterView = UIView(frame: .zero)
         tableView.rowHeight = rowHeight
-        tableView.dataSource = self
-        tableView.delegate = self
         tableView.allowsSelection = false
         tableView.separatorColor = #colorLiteral(red: 0.7176470588, green: 0.7176470588, blue: 0.7176470588, alpha: 1)
         tableViewHeightConstraint.constant = rowHeight * CGFloat(entryData.count)
