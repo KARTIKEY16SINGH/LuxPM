@@ -11,11 +11,13 @@ class LoginViewController: BottomBarBaseViewController {
     @IBOutlet weak var tableView : UITableView!
     @IBOutlet weak var forgetPasswordLabel : UILabel!
     
-    private var entryData : [SignupEntryTypeModel]!
+    private var entryData : [AccountInfoEntryTypeModel]!
+    private var loginField : UITextField?
+    private var pwdField : UITextField?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        entryData = SignupModel().createLoginModel()
+        entryData = DataManager.shared.createLoginModel()
         // Do any additional setup after loading the view.
         setupViews()
     }
@@ -24,23 +26,32 @@ class LoginViewController: BottomBarBaseViewController {
         tableView.register(UINib(nibName: "LoginTableViewCell", bundle: Bundle(for: LoginViewController.self)), forCellReuseIdentifier: "loginTableViewCell")
         tableView.tableFooterView = UIView(frame: .zero)
         tableView.allowsSelection = false
-        forgetPasswordLabel.attributedText = Helper.getHightlightedString(text: "비밀번호 찾기", highlightedText: "찾기", fontFamilyName: "Roboto", size: 14)
+        forgetPasswordLabel.attributedText = GUIManager.getHightlightedString(text: "비밀번호 찾기", highlightedText: "찾기", fontFamilyName: "Roboto", size: 14)
         bottomBarDelegate.setButtonText(text: Helper.loginText)
         bottomBarDelegate.setLabelText(text: "계정이 없으신가요?   가입하기", underLinedText: Helper.signUpText, size: 14)
+        setupForKeyboardUse()
     }
     
     override func mainButtonTapped() {
-        
-//        navigationController?.pushViewController(UIViewController(), animated: true)
-        
-        let alert = UIAlertController.init(title: "Alert!", message: "Incorrect EmailId or Password", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
-        self.present(alert, animated: true, completion: nil)
+        guard let _ = loginField?.text, let _ = pwdField?.text else {
+            showLoginFailAlert()
+            return
+        }
+        if DataManager.shared.validateLogin(emaild: (loginField?.text)!, pwd: (pwdField?.text)!) {
+            let vc = UIViewController()
+            vc.view.backgroundColor = UIColor.white
+            navigationController?.pushViewController(vc, animated: true)
+        } else {
+            showLoginFailAlert()
+        }
+    }
+    
+    private func showLoginFailAlert() {
+        GUIManager.showAlert(message: "Either EmmailID or Password is not correct", presenter: self)
     }
     
     override func textLabelTapped() {
-        let vc = UIStoryboard(name: "SignupStoryboard", bundle: Bundle(for: LoginViewController.self)).instantiateInitialViewController()!
-        navigationController?.pushViewController(vc, animated: true)
+        navigationController?.pushViewController(GUIManager.getSignupViewController(), animated: true)
     }
 }
 
@@ -52,6 +63,14 @@ extension LoginViewController : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "loginTableViewCell", for: indexPath) as! SignupTableViewCell
         cell.setupViews(entryType: entryData[indexPath.row])
+        if entryData[indexPath.row].entryType == .email {
+            loginField = cell.textField
+        }
+        
+        if entryData[indexPath.row].entryType == .password {
+            pwdField = cell.textField
+        }
+        
         return cell
     }
     

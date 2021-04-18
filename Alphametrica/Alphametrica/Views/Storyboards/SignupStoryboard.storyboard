@@ -53,7 +53,7 @@
                                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                             </tableView>
                                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eB6-c4-Smk">
-                                                <rect key="frame" x="41" y="726" width="333" height="55"/>
+                                                <rect key="frame" x="40" y="726" width="333" height="55"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="5eL-Vj-IZA"/>
                                                 </constraints>
@@ -74,6 +74,9 @@
                                                         <state key="normal" image="tncRightIcon">
                                                             <color key="titleColor" red="0.71764707569999997" green="0.71764707569999997" blue="0.71764707569999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="tncButtonClicked:" destination="K3B-dq-Dew" eventType="touchUpInside" id="B98-fu-cdO"/>
+                                                        </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ii-bM-uEH">
                                                         <rect key="frame" x="35" y="3" width="114" height="14"/>
@@ -153,6 +156,8 @@
                         <outlet property="scrollView" destination="ClR-tn-gb9" id="gDq-wo-5L0"/>
                         <outlet property="tableView" destination="0Vb-U3-E0c" id="aBK-cs-8DG"/>
                         <outlet property="tableViewHeightConstraint" destination="rK3-4s-kl7" id="yjr-nF-hBG"/>
+                        <outlet property="tncButton" destination="Sq3-hh-Paz" id="jFd-O1-53m"/>
+                        <outlet property="tncLabel" destination="7ii-bM-uEH" id="8dD-Wz-LUD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k6N-cm-psk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

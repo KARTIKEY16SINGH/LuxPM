@@ -17,14 +17,14 @@ class SignupTableViewCell: UITableViewCell {
         // Initialization code
     }
     
-    func setupViews(entryType : SignupEntryTypeModel) {
+    func setupViews(entryType : AccountInfoEntryTypeModel) {
         if let _ = iconImage {
             iconImage?.image = entryType.iconImage
         }
         if entryType.highlightedText == nil {
             titleLabel.text = entryType.titleText
         } else {
-            titleLabel.attributedText = Helper.getHightlightedString(text: entryType.titleText, highlightedText: entryType.highlightedText!, fontFamilyName: "Roboto", size: 16)
+            titleLabel.attributedText = GUIManager.getHightlightedString(text: entryType.titleText, highlightedText: entryType.highlightedText!, fontFamilyName: "Roboto", size: 16)
         }
         textField.placeholder = entryType.placeholderText
         textField.isSecureTextEntry = false
@@ -42,7 +42,7 @@ class SignupTableViewCell: UITableViewCell {
         case .email:
             textField.textContentType = .emailAddress
             textField.keyboardType = .emailAddress
-        case .password:
+        case .password, .confirmPassword:
             textField.textContentType = .password
             textField.keyboardType = .default
             textField.isSecureTextEntry = true
