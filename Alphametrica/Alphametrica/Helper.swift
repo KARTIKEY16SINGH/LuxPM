@@ -17,6 +17,7 @@ struct Helper {
     static let signUpText = "가입하기"
     static let loginText = "로그인"
     static let defaultFont = UIFont.systemFont(ofSize: UIFont.labelFontSize)
+    static let minPasswordLength = 8
     
     static func getHightlightedString(text: String, highlightedText hText: String, fontFamilyName ffName: String, size: CGFloat) -> NSMutableAttributedString {
         let attributedStr = NSMutableAttributedString(string: text, attributes: [.font : UIFont(name: ffName + "-Regular", size: size) ?? defaultFont])

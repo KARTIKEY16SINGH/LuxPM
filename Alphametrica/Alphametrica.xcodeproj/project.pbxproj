@@ -13,7 +13,7 @@
 		C622624C262AB661000030D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C622624A262AB661000030D7 /* Main.storyboard */; };
 		C622624E262AB662000030D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C622624D262AB662000030D7 /* Assets.xcassets */; };
 		C6226251262AB662000030D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C622624F262AB662000030D7 /* LaunchScreen.storyboard */; };
-		C622625B262AB705000030D7 /* UsedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622625A262AB705000030D7 /* UsedModel.swift */; };
+		C622625B262AB705000030D7 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C622625A262AB705000030D7 /* UserModel.swift */; };
 		C63F10E4262AC18C005AE87F /* Lato-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10D9262AC18C005AE87F /* Lato-ThinItalic.ttf */; };
 		C63F10E5262AC18C005AE87F /* Lato-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10DA262AC18C005AE87F /* Lato-Thin.ttf */; };
 		C63F10E6262AC18C005AE87F /* Lato-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C63F10DB262AC18C005AE87F /* Lato-LightItalic.ttf */; };
@@ -41,6 +41,16 @@
 		C63F1124262B42AA005AE87F /* SignupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1122262B42AA005AE87F /* SignupTableViewCell.swift */; };
 		C63F1125262B42AA005AE87F /* SignupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63F1123262B42AA005AE87F /* SignupTableViewCell.xib */; };
 		C63F1128262B42F8005AE87F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1127262B42F8005AE87F /* SignupViewController.swift */; };
+		C63F112B262B4D10005AE87F /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F112A262B4D10005AE87F /* SignupModel.swift */; };
+		C63F112F262B80F8005AE87F /* Extension+SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F112E262B80F8005AE87F /* Extension+SignupViewController.swift */; };
+		C63F1132262B8220005AE87F /* BottomBarBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1131262B8220005AE87F /* BottomBarBaseViewController.swift */; };
+		C63F1135262B91BD005AE87F /* PassValidationCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1134262B91BD005AE87F /* PassValidationCollectionViewController.swift */; };
+		C63F1139262B9200005AE87F /* ValidationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1137262B9200005AE87F /* ValidationCollectionViewCell.swift */; };
+		C63F113A262B9200005AE87F /* ValidationCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63F1138262B9200005AE87F /* ValidationCollectionViewCell.xib */; };
+		C63F113D262B95CD005AE87F /* PassValidationStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F113C262B95CD005AE87F /* PassValidationStoryBoard.storyboard */; };
+		C63F1140262BA59F005AE87F /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C63F113F262BA59F005AE87F /* LoginStoryboard.storyboard */; };
+		C63F1143262BAA81005AE87F /* LoginTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C63F1142262BAA81005AE87F /* LoginTableViewCell.xib */; };
+		C63F1146262BB059005AE87F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63F1145262BB059005AE87F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,7 +62,7 @@
 		C622624D262AB662000030D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6226250262AB662000030D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6226252262AB662000030D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C622625A262AB705000030D7 /* UsedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedModel.swift; sourceTree = "<group>"; };
+		C622625A262AB705000030D7 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		C63F10D9262AC18C005AE87F /* Lato-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-ThinItalic.ttf"; sourceTree = "<group>"; };
 		C63F10DA262AC18C005AE87F /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
 		C63F10DB262AC18C005AE87F /* Lato-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -80,6 +90,16 @@
 		C63F1122262B42AA005AE87F /* SignupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupTableViewCell.swift; sourceTree = "<group>"; };
 		C63F1123262B42AA005AE87F /* SignupTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignupTableViewCell.xib; sourceTree = "<group>"; };
 		C63F1127262B42F8005AE87F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		C63F112A262B4D10005AE87F /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		C63F112E262B80F8005AE87F /* Extension+SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+SignupViewController.swift"; sourceTree = "<group>"; };
+		C63F1131262B8220005AE87F /* BottomBarBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarBaseViewController.swift; sourceTree = "<group>"; };
+		C63F1134262B91BD005AE87F /* PassValidationCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassValidationCollectionViewController.swift; sourceTree = "<group>"; };
+		C63F1137262B9200005AE87F /* ValidationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationCollectionViewCell.swift; sourceTree = "<group>"; };
+		C63F1138262B9200005AE87F /* ValidationCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ValidationCollectionViewCell.xib; sourceTree = "<group>"; };
+		C63F113C262B95CD005AE87F /* PassValidationStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassValidationStoryBoard.storyboard; sourceTree = "<group>"; };
+		C63F113F262BA59F005AE87F /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
+		C63F1142262BAA81005AE87F /* LoginTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginTableViewCell.xib; sourceTree = "<group>"; };
+		C63F1145262BB059005AE87F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +140,7 @@
 				C622624D262AB662000030D7 /* Assets.xcassets */,
 				C622624F262AB662000030D7 /* LaunchScreen.storyboard */,
 				C6226252262AB662000030D7 /* Info.plist */,
-				C622625A262AB705000030D7 /* UsedModel.swift */,
+				C622625A262AB705000030D7 /* UserModel.swift */,
 				C63F110E262AD0AF005AE87F /* BottomBarView.swift */,
 				C63F1115262AD146005AE87F /* BottomBarStoryboard.storyboard */,
 				C63F1118262AFB84005AE87F /* Helper.swift */,
@@ -128,6 +148,16 @@
 				C63F1122262B42AA005AE87F /* SignupTableViewCell.swift */,
 				C63F1123262B42AA005AE87F /* SignupTableViewCell.xib */,
 				C63F1127262B42F8005AE87F /* SignupViewController.swift */,
+				C63F112A262B4D10005AE87F /* SignupModel.swift */,
+				C63F112E262B80F8005AE87F /* Extension+SignupViewController.swift */,
+				C63F1131262B8220005AE87F /* BottomBarBaseViewController.swift */,
+				C63F1134262B91BD005AE87F /* PassValidationCollectionViewController.swift */,
+				C63F1137262B9200005AE87F /* ValidationCollectionViewCell.swift */,
+				C63F1138262B9200005AE87F /* ValidationCollectionViewCell.xib */,
+				C63F113C262B95CD005AE87F /* PassValidationStoryBoard.storyboard */,
+				C63F113F262BA59F005AE87F /* LoginStoryboard.storyboard */,
+				C63F1142262BAA81005AE87F /* LoginTableViewCell.xib */,
+				C63F1145262BB059005AE87F /* LoginViewController.swift */,
 			);
 			path = Alphametrica;
 			sourceTree = "<group>";
@@ -244,7 +274,9 @@
 				C63F10EE262AC18C005AE87F /* Lato-Black.ttf in Resources */,
 				C63F10E7262AC18C005AE87F /* Lato-Bold.ttf in Resources */,
 				C63F10ED262AC18C005AE87F /* Lato-Italic.ttf in Resources */,
+				C63F113A262B9200005AE87F /* ValidationCollectionViewCell.xib in Resources */,
 				C6226251262AB662000030D7 /* LaunchScreen.storyboard in Resources */,
+				C63F1140262BA59F005AE87F /* LoginStoryboard.storyboard in Resources */,
 				C63F10FB262AC696005AE87F /* Merriweather-Italic.ttf in Resources */,
 				C63F10E6262AC18C005AE87F /* Lato-LightItalic.ttf in Resources */,
 				C63F10E9262AC18C005AE87F /* Lato-BoldItalic.ttf in Resources */,
@@ -252,6 +284,7 @@
 				C63F10FE262AC696005AE87F /* Merriweather-Bold.ttf in Resources */,
 				C63F1102262AC696005AE87F /* Merriweather-Light.ttf in Resources */,
 				C63F10FC262AC696005AE87F /* Merriweather-Regular.ttf in Resources */,
+				C63F113D262B95CD005AE87F /* PassValidationStoryBoard.storyboard in Resources */,
 				C63F10E5262AC18C005AE87F /* Lato-Thin.ttf in Resources */,
 				C63F1120262B203D005AE87F /* SignupStoryboard.storyboard in Resources */,
 				C622624E262AB662000030D7 /* Assets.xcassets in Resources */,
@@ -264,6 +297,7 @@
 				C63F10FD262AC696005AE87F /* Merriweather-LightItalic.ttf in Resources */,
 				C63F1101262AC696005AE87F /* Merriweather-BoldItalic.ttf in Resources */,
 				C622624C262AB661000030D7 /* Main.storyboard in Resources */,
+				C63F1143262BAA81005AE87F /* LoginTableViewCell.xib in Resources */,
 				C63F10E8262AC18C005AE87F /* Lato-Light.ttf in Resources */,
 				C63F10EB262AC18C005AE87F /* Lato-Regular.ttf in Resources */,
 			);
@@ -276,11 +310,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C622625B262AB705000030D7 /* UsedModel.swift in Sources */,
+				C63F1146262BB059005AE87F /* LoginViewController.swift in Sources */,
+				C63F1139262B9200005AE87F /* ValidationCollectionViewCell.swift in Sources */,
+				C63F1132262B8220005AE87F /* BottomBarBaseViewController.swift in Sources */,
+				C63F112F262B80F8005AE87F /* Extension+SignupViewController.swift in Sources */,
+				C622625B262AB705000030D7 /* UserModel.swift in Sources */,
 				C6226249262AB661000030D7 /* ViewController.swift in Sources */,
+				C63F1135262B91BD005AE87F /* PassValidationCollectionViewController.swift in Sources */,
 				C63F1128262B42F8005AE87F /* SignupViewController.swift in Sources */,
 				C6226245262AB661000030D7 /* AppDelegate.swift in Sources */,
 				C63F110F262AD0AF005AE87F /* BottomBarView.swift in Sources */,
+				C63F112B262B4D10005AE87F /* SignupModel.swift in Sources */,
 				C63F1124262B42AA005AE87F /* SignupTableViewCell.swift in Sources */,
 				C6226247262AB661000030D7 /* SceneDelegate.swift in Sources */,
 				C63F1119262AFB84005AE87F /* Helper.swift in Sources */,

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="loginTableViewCell" id="hQU-DY-NIJ" customClass="SignupTableViewCell" customModule="Alphametrica" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100.5"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hQU-DY-NIJ" id="xM3-PL-vTX">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EN8-Hy-GH7">
+                        <rect key="frame" x="0.0" y="33" width="36.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="bEI-Fi-eGr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
+                        <color key="textColor" red="0.43921568630000002" green="0.43921568630000002" blue="0.43921568630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e1A-Xx-Jh4">
+                        <rect key="frame" x="46.5" y="65.5" width="273.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="plc-M3-BGq"/>
+                        </constraints>
+                        <color key="textColor" red="0.71764705880000002" green="0.71764705880000002" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                    </textField>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="592-2V-l6B">
+                        <rect key="frame" x="0.0" y="64.5" width="24" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="Upf-ce-v1h"/>
+                            <constraint firstAttribute="width" constant="24" id="l0S-ys-5Xc"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="EN8-Hy-GH7" firstAttribute="leading" secondItem="xM3-PL-vTX" secondAttribute="leading" id="2FS-rN-3WI"/>
+                    <constraint firstItem="592-2V-l6B" firstAttribute="centerY" secondItem="e1A-Xx-Jh4" secondAttribute="centerY" id="7W4-em-DQf"/>
+                    <constraint firstItem="e1A-Xx-Jh4" firstAttribute="leading" secondItem="592-2V-l6B" secondAttribute="trailing" constant="22.260000000000002" id="AeY-vA-eHb"/>
+                    <constraint firstAttribute="trailing" secondItem="e1A-Xx-Jh4" secondAttribute="trailing" id="Ahn-0w-hL9"/>
+                    <constraint firstAttribute="bottom" secondItem="e1A-Xx-Jh4" secondAttribute="bottom" constant="15" id="Nri-lL-DXz"/>
+                    <constraint firstItem="592-2V-l6B" firstAttribute="leading" secondItem="xM3-PL-vTX" secondAttribute="leading" id="gwj-oU-AAx"/>
+                    <constraint firstItem="e1A-Xx-Jh4" firstAttribute="top" secondItem="EN8-Hy-GH7" secondAttribute="bottom" constant="17.5" id="i6b-0n-L7R"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="smc-TV-zAS"/>
+            <connections>
+                <outlet property="iconImage" destination="592-2V-l6B" id="Y01-4D-bmQ"/>
+                <outlet property="textField" destination="e1A-Xx-Jh4" id="PwI-me-k0a"/>
+                <outlet property="titleLabel" destination="EN8-Hy-GH7" id="cx1-J4-Fc6"/>
+            </connections>
+            <point key="canvasLocation" x="-4.3478260869565224" y="58.59375"/>
+        </tableViewCell>
+    </objects>
+</document>

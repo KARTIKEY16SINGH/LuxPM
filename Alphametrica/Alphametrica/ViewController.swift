@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: BottomBarBaseViewController {
 
     @IBOutlet weak var bottomBarContainerView : UIView!
     @IBOutlet weak var firstLabel : UILabel!
     @IBOutlet weak var secondLabel : UILabel!
-    
-    weak var bbSourceDelegate : BottomBarView!
     
     private let sampleText1 = "Stay on the top of your finance"
     private let sampleText2 = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam "
@@ -23,25 +21,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         firstLabel.attributedText = Helper.getHightlightedString(text: sampleText1, highlightedText: sHightLightedText1, fontFamilyName: "Lato", size: 23)
         secondLabel.attributedText = Helper.getHightlightedString(text: sampleText2, highlightedText: sHightLightedText2, fontFamilyName: "Merriweather", size: 14)
-        bbSourceDelegate.setButtonText(text: Helper.signUpText)
-        bbSourceDelegate.setLabelText(text: Helper.loginText, size: 16)
-    }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let bottomBarView = (segue.destination.view.subviews.first as! BottomBarView)
-        bbSourceDelegate = bottomBarView
-        bottomBarView.delegate = self
+        bottomBarDelegate.setButtonText(text: Helper.signUpText)
+        bottomBarDelegate.setLabelText(text: Helper.loginText, underLinedText: nil, size: 16)
     }
 }
 
-extension ViewController: BottomBarViewActionDelegate {
-    func mainButtonTapped() {
+extension ViewController {
+    override func mainButtonTapped() {
         let vc = UIStoryboard(name: "SignupStoryboard", bundle: nibBundle).instantiateViewController(identifier: "signupStoryboard")
         print("Navigation Controller = \(navigationController)")
         navigationController?.pushViewController(vc, animated: true)
     }
     
-    func textLabelTapped() {
-        
+    override func textLabelTapped() {
+        let vc = UIStoryboard(name: "LoginStoryboard", bundle: nibBundle).instantiateInitialViewController()
+        navigationController?.pushViewController(vc!, animated: true)
     }
 }
